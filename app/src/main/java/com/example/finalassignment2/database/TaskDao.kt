@@ -1,0 +1,23 @@
+package com.example.finalassignment2.database
+
+import androidx.lifecycle.LiveData
+import androidx.room.*
+
+@Dao
+interface TaskDao {
+
+    @Insert
+     fun insert(taskEntry: TaskEntry)
+
+    @Delete
+     fun delete(taskEntry: TaskEntry)
+
+    @Update
+     fun update(taskEntry: TaskEntry)
+
+    @Query("DELETE FROM task_table")
+ fun deleteAll() : Void
+
+@Query("SELECT * FROM task_table ORDER BY date ASC")
+fun getAllTasks(): LiveData<List<TaskEntry>>
+}
