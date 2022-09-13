@@ -15,4 +15,5 @@ To be implemented:
 
 notifications
 tab menu
+rotation (handling)
 
