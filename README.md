@@ -5,8 +5,7 @@ Created an application able to create, display,modify of new events/tasks to the
 Technologies used & what was accomplished :
 
 Fragments, Navigation, Data Class,
-Arguments, Singleton, Kotlin, 
-Interfaces, High Order Function, Room Data Base, 
+Arguments, Kotlin, Interfaces, Room Data Base, 
 Data binding, Recycler View, View Binding, 
 Item Menu, Data retaining, Sorting by date,
 local database retaining, MVVM, Swipe to delete , 
