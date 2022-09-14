@@ -9,11 +9,11 @@ Arguments, Kotlin, Interfaces, Room Data Base,
 Data binding, Recycler View, View Binding, 
 Item Menu, Data retaining, Sorting by date,
 local database retaining, MVVM, Swipe to delete , 
-delete all button, animations
+delete all button, animations, undo delete 
 
 To be implemented:
 
-notifications
-tab menu
+notifications,
+tab menu,
 rotation 
 
